@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Tahoma, Arial, sans-serif;
+    color: #666;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    line-height: 1.6em;
+}
+
+ul,li{
+    list-style: none;
+}
+
+.container{
+    width: 60%;
+    margin: 30px auto;
+    overflow: auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title{
+    height: 40px;
+    background-color: #6bb170;
+    color: #fff;
+    padding-top: 13px;
+    text-align: center;
+}
+
+ul.faq li{
+    padding: 20px;
+}
+
+li.q{
+    background-color: #c8c8c8;
+    font-weight: bold;
+    border-bottom: 1px #ddd solid;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+li.q:hover{
+    background-color: #d0d4cf;
+}
+
+li>img{
+    width: 20px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+li.a{
+    display: none;
+    background: #ddd;
+}
+
+
+@media screen and (max-width: 900px){
+    .container{
+        width: 90%;
+    }
+}
