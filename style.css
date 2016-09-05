@@ -61,6 +61,9 @@ li.a{
     background: #ddd;
 }
 
+.rotate{
+    transform: rotate(450deg);
+}
 
 @media screen and (max-width: 900px){
     .container{
